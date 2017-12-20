@@ -8,10 +8,21 @@ allprojects {
 
     apply plugin: 'idea'
     group = 'com.fredboat'
+    
+    
+    
+    
 }
 
+
 subprojects {
+
+
     apply plugin: 'java'
+    
+    apply plugin: 'checkstyle'
+    
+
 
     sourceCompatibility = 1.8
     targetCompatibility = 1.8
